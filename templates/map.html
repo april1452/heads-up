@@ -6,14 +6,51 @@
 <span id="sidebar">
 	<p id="title">headsUp NYC</p>
 	<div id="content">
-		<div id="icons">
-			<i class="fa fa-male"></i>
-			<i class="fa fa-female"></i><br>
-			<i class="fa fa-bicycle"></i>
-		</div>
-		<div id="labels">
-			<p id="label-1">Collisions involving pedestrians</p>
-			<p id="label-2">Collisions involving cyclists<p>
+		<div id="specs">
+			<div class="formplate">
+				<div class="label">Manhattan:</div>
+    		<i class="fa fa-bicycle"></i>
+    		<a class="aTog" id="manhattanCyclTog" borough="manhattan" collision="cycl"><input type="checkbox" class="toggler" checked></a>
+    		<i class="fa fa-male"></i>
+				<i class="fa fa-female"></i>
+				<a class="aTog" id="manhattanPedTog" borough="manhattan" collision="ped"><input type="checkbox" class="toggler" checked></a>
+			</div><br>
+
+			<div class="formplate">
+				<div class="label">Brooklyn:</div>
+    		<i class="fa fa-bicycle"></i>
+    		<a class="aTog" id="brooklynCyclTog" borough="brooklyn" collision="cycl"><input type="checkbox" class="toggler"></a>
+    		<i class="fa fa-male"></i>
+				<i class="fa fa-female"></i>
+				<a class="aTog" id="brooklynPedTog" borough="brooklyn" collision="ped"><input type="checkbox" class="toggler"></a>
+			</div><br>
+
+			<div class="formplate">
+				<div class="label">Queens:</div>
+    		<i class="fa fa-bicycle"></i>
+    		<a class="aTog" id="queensCyclTog" borough="queens" collision="cycl"><input type="checkbox" class="toggler"></a>
+    		<i class="fa fa-male"></i>
+				<i class="fa fa-female"></i>
+				<a class="aTog" id="queensPedTog" borough="queens" collision="ped"><input type="checkbox" class="toggler"></a>
+			</div><br>
+
+			<div class="formplate">
+				<div class="label">Bronx:</div>
+    		<i class="fa fa-bicycle"></i>
+    		<a class="aTog" id="bronxCyclTog" borough="bronx" collision="cycl"><input type="checkbox" class="toggler"></a>
+    		<i class="fa fa-male"></i>
+				<i class="fa fa-female"></i>
+				<a class="aTog" id="bronxPedTog" borough="bronx" collision="ped"><input type="checkbox" class="toggler"></a>
+			</div><br>
+
+			<div class="formplate">
+				<div class="label">Staten Island:</div>
+    		<i class="fa fa-bicycle"></i>
+    		<a class="aTog" id="statenIslandCyclTog" borough="staten_island" collision="cycl"><input type="checkbox" class="toggler"></a>
+    		<i class="fa fa-male"></i>
+				<i class="fa fa-female"></i>
+				<a class="aTog" id="statenIslandPedTog" borough="staten_island" collision="ped"><input type="checkbox" class="toggler"></a>
+			</div><br>
 		</div>
 	</div>
 </span>

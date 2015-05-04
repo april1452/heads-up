@@ -31,28 +31,29 @@ html, body {
 }
 
 #icons {
-	padding-right: 5px;
+	padding-right: 15px;
 	float: left;
 } 
-i.fa {
-	font-size: 18pt;
-}
 i.fa-bicycle {
-	padding-top: 5px;
-	color: purple;
+	color: #9a5cb4;
+	font-size: 22pt;
 }
 i.fa-male, i.fa-female {
-	color: pink;
+	color: #e95569;
+	font-size: 18pt;
 }
 
-#labels {
-	padding-top: 5px;
-	float: left;
+.label {
+	font-size: 12pt;
 }
-p#label-1 {
-	margin: 0;
+span.fp-toggler {
+	height: 20px !important;
+	width: 40px !important;
+	margin-right: 18px !important;
+	padding-top: 5px !important;
 }
-p#label-2 {
-	margin: 0;
-	padding-top: 10px;
+span.handle {
+	height: 18.2px !important;
+	width: 18.2px !important;
+	margin-right: 18px !important;
 }
