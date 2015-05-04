@@ -14,9 +14,8 @@ See motor vehicle collisions in NYC that involved either pedestrians or cyclists
 Phuc Anh (April) Tran. Developed for Christian Swinehart's *Lies, Damned Lies, and Dataviz* course at Rhode Island School of Design, Spring 2015. Data from NYCOpenData.
 
 ##TODO
--Batch collision drawing so window doesn't freeze up
--Needs cronjob for updating data automatically
-
+*Needs cronjob for updating data automatically
+*Neighborhood switches + statistics
 
 
 
