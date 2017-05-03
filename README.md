@@ -17,7 +17,9 @@ In your browser window, navigate to `localhost:5000`
 
 ## Features
 
-See motor vehicle collisions in NYC that involved either pedestrians or cyclists from July 2012 to present. Examine collision distribution in all five boroughs, and see statistics from Manhattan's neighborhoods. 
+See motor vehicle collisions in NYC that involved either pedestrians or cyclists from July 2012 to present. Examine collision distribution in all five boroughs, and see statistics from Manhattan's neighborhoods.
+
+![Screenshot](https://github.com/phucanhapril/heads-up/raw/master/static/bikes.png "Screenshot")
 
 ## Proprietary
 
@@ -29,10 +31,3 @@ Phuc Anh (April) Tran. Developed for Christian Swinehart's *Lies, Damned Lies, a
 * Find way to remove unneeded geojson from data layer
 * Needs cronjob for updating data automatically
 * Markers should enlarge with window zoom
-
-
-
-
-
-
-
